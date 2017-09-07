@@ -57,4 +57,5 @@ The result is an array of dictionary items which looks like this:
 License
 ========
 
-There's no specific license with that. Feel free to do whatever you want with this code. Clone, Fork and enjoy!
+I actually used some code from (the pretty cool) [Punter](https://github.com/nethunteros/punter/) project.
+If any license applies on his side (it seems not), it will be his ones :) 
