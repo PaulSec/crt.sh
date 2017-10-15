@@ -1,4 +1,8 @@
 from crtsh import crtshAPI
+import sys
 import json
 
-print(json.dumps(crtshAPI().search('uber.com')))
+if len(sys.argv) > 1:
+    print(json.dumps(crtshAPI().search(sys.argv[1])))
+else:
+    pass
