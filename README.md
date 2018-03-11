@@ -30,25 +30,12 @@ The result is an array of dictionary items which looks like this:
 ```json 
 [
   {
-    "crtsh_id": "201202462",
-    "logged_at": "2017-08-29",
-    "not_before": "2017-08-22",
-    "domain": "lert.uber.com",
-    "issuer": "C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA"
-  },
-  {
-    "crtsh_id": "196687254",
-    "logged_at": "2017-08-23",
-    "not_before": "2017-08-23",
-    "domain": "hatch.uber.com",
-    "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3"
-  },
-  {
-    "crtsh_id": "175522179",
-    "logged_at": "2017-07-19",
-    "not_before": "2017-07-11",
-    "domain": "*.uber.com",
-    "issuer": "C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA"
+      "issuer_ca_id": 16418,
+      "issuer_name": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+      "name_value": "hatch.uber.com",
+      "min_cert_id": 325717795,
+      "min_entry_timestamp": "2018-02-08T16:47:39.089",
+      "not_before": "2018-02-08T15:47:39"
   },
   ....
 ]
@@ -57,5 +44,4 @@ The result is an array of dictionary items which looks like this:
 License
 ========
 
-I actually used some code from (the pretty cool) [Punter](https://github.com/nethunteros/punter/) project.
-If any license applies on his side (it seems not), it will be his ones :) 
+This has been released under MIT License. For any question, feel free to contact me on Twitter [@PaulWebSec](https://twitter.com/@PaulWebSec).
