@@ -44,6 +44,7 @@ class crtshAPI(object):
             try:
                 content = req.content.decode('utf-8')
                 data = json.loads(content)
+                return data
             except ValueError:
                 # crt.sh fixed their JSON response. This shouldn't be necessary anymore
                 # https://github.com/crtsh/certwatch_db/commit/f4f46ea37c23543c4cdf1a3c8867d68967641807
